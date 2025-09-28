@@ -1,0 +1,15 @@
+
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color-scheme: dark; }
+html,body,#__next{height:100%}
+body{background:#000;color:#e9edf2}
+.bg-hero{background-image:
+ radial-gradient(ellipse at top,rgba(0,0,0,.35),rgba(0,0,0,.88)),
+ url('https://i.goopics.net/ucoabu.jpg'); background-size:cover;background-position:center; background-attachment:fixed}
+.card{ @apply bg-panel/80 border border-[#2a2f36] rounded-2xl shadow-xl; backdrop-filter: blur(3px); }
+.btn{ @apply px-4 py-2 rounded-xl font-semibold }
+.btn-primary{ @apply btn text-black; background:linear-gradient(180deg,#f0d27a,#caa24a); border:1px solid #936f12 }
+.btn-ghost{ @apply btn bg-[#0f1318] border border-[#2a2f36] text-white }
+.input{ @apply w-full px-3 py-2 rounded-xl bg-[#0c1116] border border-[#2a2f36] text-white }
+.tab{ @apply border border-[#2a2f36] rounded-xl px-3 py-1 cursor-pointer }
+.tab-active{ @apply bg-[#111720] border-[#3a4352] }
