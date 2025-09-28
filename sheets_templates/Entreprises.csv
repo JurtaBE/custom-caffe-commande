@@ -1,0 +1,3 @@
+Entreprise,Code,Login,Password,ModeTarif,Facteur,Actif
+Custom Caffe,CAFFE2025,custom,caffe,base,,TRUE
+Test Corp,TEST123,test,1234,multiplicateur,1.2,TRUE
